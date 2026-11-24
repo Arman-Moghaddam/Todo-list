@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تودو لیست</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body id="arman">
+    <div class="container">
+        <div class="head-of-table">
+            <div class="head-title">بدون وضعیت</div>
+            <div class="head-title">شروع نشده</div>
+            <div class="head-title">در حال انجام</div>
+            <div class="head-title">انجام شده</div>
+        </div>
+
+        <div class="table">
+            <div id="no_status" class="soton">
+                <div class="add_item"><span>اضافه کردن ماموریت</span></div>
+                
+                <!-- <div class="item" id="1" draggable="true"><span class="todo-item">تست</span><span class="cancel">X</span></div> -->
+            </div>
+            <div id="not_started" class="soton"></div>
+            <div id="in_progress" class="soton"></div>
+            <div id="completed" class="soton"></div>
+        </div>
+
+        <div class="add-todo_layer">
+            <div class="layer">
+                <input type="text" class="user_input" autofocus placeholder="چیزی بنویسید...">
+                <button class="submit">افزودن</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
